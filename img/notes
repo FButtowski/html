@@ -1,0 +1,13 @@
+selectors :- are used to apply custom sytles in our web pages
+            (1) class selector ;- it is defined with . operator and class attribute 
+                example     
+                    <sytles>
+                        .header{color:red; boarder:2px solid green}
+                    </sytles>
+                    <h class="header">hell</h>
+            (2) id selector :- it is defined with # and called with id attribute
+                example 
+                     <sytles>
+                        #header{color:red; boarder:2px solid green}
+                    </sytles>
+                    <h id="header">hell</h>

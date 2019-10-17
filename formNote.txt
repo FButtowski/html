@@ -1,0 +1,15 @@
+form get are unsecure values are shown in url
+post hides data
+regular expression (regex):-
+[] :- pattern 
+{} :- range
++  :- compulsary
+| :- or
+
+eg:
+    name only alphabets and space
+    [a-z]+ 
+    [a-z]{2,50}
+
+    email
+    

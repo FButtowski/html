@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0px auto;
+        }
+
+        .main {
+            width: 95%;
+            
+            color: red;
+        }
+
+        .header {
+            width: 100%;
+            height: 50px;
+            border: 2px solid blue;
+            border-radius: 10px;
+        }
+
+        .menu {
+            width: 100%;
+            border: 2px solid blue;
+            border-radius: 10px;
+        }
+
+        .mar {
+            margin-top: 2px;
+        }
+
+        .section {
+            width: 100%;
+            border: 2px solid blue;
+            border-radius: 10px;
+            height: 76%;
+        }
+
+        .footer {
+            width: 100%;
+            height: 10%;
+            border: 2px solid blue;
+            border-radius: 10px;
+            clear: both;
+        }
+
+        .sidebar {
+            width: 25%;
+            float: left;
+            height: 100%;
+        }
+
+        .container {
+            width: 75%;
+            height: 100%;
+            float: right;
+        }
+    </style>
+</head>
+
+<body bgcolor="cyan">
+    <div class="main">
+        <header class="header">Header</header>
+        <nav class="menu mar">menu
+            <audio></audio>
+            
+        </nav>
+        <section class="section mar">
+            <aside class="sidebar">
+                <h4>slksjh1</h4>
+                <h4>sslksjh12</h4>
+                <h4>sslksjh13</h4>
+            </aside>
+            <div class="container">
+                    <!--video src="video/vid.mkv" style="height: 200px;" controls></video-->
+                <form>
+                    <input type="text" name="name" required pattern="[a-zA-Z]{5,20}+@[a-zA-Z]{3}+\.+{3}" placeholder="Name">
+                    <br><br>
+
+                    Gender: <input type="radio" name="gender" value="male">Male
+
+                    <input type="radio" name="gender" value="female">Female
+                    <br>
+                    <br>
+                    Hobbys: <input type="checkbox" name="hobby">Ultimate
+
+                    <input type="checkbox" name="hobby">Pro Kabbadi
+                    <br /><br />
+
+                    <select>
+                        <option>hell</option>
+                        <option>jail</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="file" name="" id="">
+                    <br>
+                    <button type="button" > bsubmit</button>
+                    <br>
+                    Message:<br> <textarea style="height:1.5cm;width:90%"></textarea>
+                    <br>
+                    Color: <input type="color" name="" id="">
+                    <br>
+                    Email: <input type="email" name="" id="">
+                    <br>
+                    <input type="reset" value="reset">
+                    <input type="submit" value="Create">
+                </form>
+            </div>
+        </section>
+        <footer class="footer mar">footer</footer>
+    </div>
+</body>
+
+</html>

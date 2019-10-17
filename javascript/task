@@ -1,0 +1,24 @@
+q swaping
+q1 with 3 variables
+q2 without 3 variables
+q3 in one line or expression
+
+
+        //2 variables
+        
+        a = parseInt(prompt('first number'))
+        b = parseInt(prompt('second number'))
+        alert("before (a,b): ("+a+','+b+')')
+        a = a+b
+        b = a-b
+        a = a-b
+        alert("after (a,b): ("+a+','+b+')')
+    
+
+        //in one line
+
+        a = parseInt(prompt('first number'))
+        b = parseInt(prompt('second number'))
+        alert("before (a,b): ("+a+','+b+')')
+        a = (a+b) - (b=a)
+        alert("after (a,b): ("+a+','+b+')')
